@@ -2,8 +2,10 @@
 applications:
 - name: my-app 
   memory: 1G
-  host: my-app
+  host: my-app-host
   #random-route: true
   path: build/libs/spring-music.jar
   buildpacks: java_buildpack
+  services:
+  - my-pg
 

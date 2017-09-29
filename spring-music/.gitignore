@@ -14,7 +14,6 @@ local.properties
 
 
 .gradle
-build/
 
 *.log*
 /classes/
