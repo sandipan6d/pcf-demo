@@ -1,7 +1,9 @@
 ---
 applications:
-- name: spring-music-test
+- name: my-app 
   memory: 1G
-  random-route: true
+  host: my-app
+  #random-route: true
   path: build/libs/spring-music.jar
+  buildpacks: java_buildpack
 
